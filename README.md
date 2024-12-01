@@ -8,6 +8,7 @@ Una aplicación de escritorio simple para convertir archivos PDF a formato DOCX,
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Capturas de Pantalla](#capturas-de-pantalla)
 - [Generar Ejecutables](#generar-ejecutables)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
@@ -57,13 +58,23 @@ Antes de ejecutar la aplicación, asegúrate de tener instaladas las siguientes 
 
 1. **Ejecuta la aplicación:**
    ```bash
-   python app.py
+   python pdf.py
    ```
 
 2. **Pasos en la interfaz:**
    - Selecciona el archivo PDF que deseas convertir.
    - Elige el directorio donde guardarás el archivo convertido.
    - Haz clic en el botón "Convertir".
+
+---
+
+## Capturas de Pantalla
+
+### Pantalla Principal
+![Pantalla Principal](main.png "Pantalla principal de la aplicación")
+
+### Selector de Archivos
+![Selector de Archivos](filefinder.png "Selector de archivos en la aplicación")
 
 ---
 
@@ -74,14 +85,14 @@ Puedes generar archivos ejecutables para Linux y Windows utilizando `PyInstaller
 ### Para Linux
 1. Abre una terminal y ejecuta:
    ```bash
-   pyinstaller --onefile --windowed --icon=icon.png app.py
+   pyinstaller --onefile --windowed --icon=icon.png pdf.py
    ```
 2. El ejecutable se generará en el directorio `dist/`.
 
 ### Para Windows
 1. Abre el terminal de Windows y ejecuta:
    ```bash
-   pyinstaller --onefile --windowed --icon=icon.ico app.py
+   pyinstaller --onefile --windowed --icon=icon.ico pdf.py
    ```
 2. Encuentra el ejecutable en el directorio `dist/`.
 
