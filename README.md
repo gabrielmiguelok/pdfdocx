@@ -82,19 +82,11 @@ Antes de ejecutar la aplicación, asegúrate de tener instaladas las siguientes 
 
 Puedes generar archivos ejecutables para Linux y Windows utilizando `PyInstaller`.
 
-### Para Linux
 1. Abre una terminal y ejecuta:
    ```bash
    pyinstaller --onefile --windowed --icon=icon.png pdf.py
    ```
 2. El ejecutable se generará en el directorio `dist/`.
-
-### Para Windows
-1. Abre el terminal de Windows y ejecuta:
-   ```bash
-   pyinstaller --onefile --windowed --icon=icon.ico pdf.py
-   ```
-2. Encuentra el ejecutable en el directorio `dist/`.
 
 ### Notas:
 - Asegúrate de reemplazar `icon.png` o `icon.ico` con el icono que desees usar.
