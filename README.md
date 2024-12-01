@@ -37,7 +37,7 @@ Antes de ejecutar la aplicación, asegúrate de tener instaladas las siguientes 
 
 1. **Clona el repositorio:**
    ```bash
-   git clone [[https://github.com/tu_usuario/nombre_del_repositorio.git](https://github.com/gabrielmiguelok/pdfdocx)](https://github.com/gabrielmiguelok/pdfdocx)
+   git clone https://github.com/gabrielmiguelok/pdfdocx
    cd pdfdocx
    ```
 
